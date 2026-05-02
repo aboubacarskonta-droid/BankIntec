@@ -1,12 +1,18 @@
 package Entites;
 
+import java.util.Date;
+
 public class CompteEpargne extends Compte {
     private float taux;
 
     // Constructeur
-    public CompteEpargne(float taux) {
+    public CompteEpargne(int code, float solde, int nbComptes, Date createdDate, Date update, float taux) {
         super(); // Appelle le constructeur de Compte pour le code et le solde
         this.taux = taux;
+    }
+
+    public CompteEpargne(int code, float solde, int nbComptes, Date createdDate, Date update) {
+        super(code, solde, nbComptes, createdDate, update);
     }
 
     // Méthode spécifique demandée dans le diagramme
@@ -14,10 +20,14 @@ public class CompteEpargne extends Compte {
         // La logique : on ajoute les intérêts au solde actuel
         solde = solde + (solde * taux);
     }
-
     @Override
     public String toString() {
-        // On réutilise le toString du parent et on ajoute le taux
-        return "Compte Epargne " + super.toString() + " Taux=" + taux;
+        String s= "CompteEpargne{" +
+                "taux=" + taux +
+                '}';
+        System.out.println(s);
+        return s;
     }
+
+
 }

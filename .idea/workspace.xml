@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4ee9e4-d8eb-4a50-a832-dd15fc99c7c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BankIntec.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entites/Compte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entites/CompteEpargne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entites/ComptePayant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entites/CompteSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entites/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principale/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entites/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entites/CompteEpargne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entites/CompteEpargne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entites/ComptePayant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entites/ComptePayant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entites/CompteSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entites/CompteSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entites/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entites/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principale/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principale/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>

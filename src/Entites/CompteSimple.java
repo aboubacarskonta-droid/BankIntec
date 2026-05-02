@@ -1,15 +1,25 @@
 package Entites;
 
+import java.util.Date;
+
 public class CompteSimple extends Compte {
     private float decouvert;
 
-    public CompteSimple(float decouvert) {
+    public CompteSimple(int code, float solde, int nbComptes, Date createdDate, Date update, float decouvert) {
         super();
         this.decouvert = decouvert;
+        this.solde=solde;
+
+
     }
 
-    public CompteSimple() {
-        this(0); // Appelle le premier constructeur avec 0 par défaut
+    @Override
+    public String toString() {
+        String s= "CompteSimple{" +
+                "decouvert=" + decouvert +
+                '}';
+        System.out.println(s);
+        return s;
     }
 
     @Override
@@ -20,9 +30,4 @@ public class CompteSimple extends Compte {
         }
     }
 
-    @Override
-    public String toString() {
-        // Conforme à image_66777c.png
-        return ("Compte Simple " + super.toString() + " Decouvert=" + decouvert);
-    }
 }

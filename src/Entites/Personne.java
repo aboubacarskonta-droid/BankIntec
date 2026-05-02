@@ -8,13 +8,13 @@ public class Personne {
     private String prenom;
     private int age;
     private String adresse;
-    private String phone;
+    private int phone;
     private Date dateNaiss;
     private Date createdDate;
     private Date updateDate;
 
     // Constructeur complet
-    public Personne(int id, String nom, String prenom, int age, String adresse, String phone, Date dateNaiss) {
+    public Personne(int id, String nom, String prenom, int age, String adresse, int phone, Date dateNaiss) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
@@ -25,9 +25,18 @@ public class Personne {
         this.createdDate = new Date(); // Initialise la date de création à l'instant T
     }
 
-    // Un toString pour afficher les infos de la personne
     @Override
     public String toString() {
-        return nom + " " + prenom + " (ID: " + id + ")";
+        return "Personne{" +
+                "id=" + id +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", age=" + age +
+                ", adresse='" + adresse + '\'' +
+                ", phone=" + phone +
+                ", dateNaiss=" + dateNaiss +
+                ", createdDate=" + createdDate +
+                ", updateDate=" + updateDate +
+                '}';
     }
 }
