@@ -24,6 +24,10 @@ public class CompteEpargne extends Compte {
     public String toString() {
         String s= "CompteEpargne{" +
                 "taux=" + taux +
+                "code=" + code +
+                ", solde=" + solde +
+                ", createdDate=" + createdDate +
+                ", update=" + update +
                 '}';
         System.out.println(s);
         return s;

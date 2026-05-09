@@ -17,6 +17,10 @@ public class CompteSimple extends Compte {
     public String toString() {
         String s= "CompteSimple{" +
                 "decouvert=" + decouvert +
+                "code=" + code +
+                ", solde=" + solde +
+                ", createdDate=" + createdDate +
+                ", update=" + update +
                 '}';
         System.out.println(s);
         return s;

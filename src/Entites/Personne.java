@@ -27,7 +27,7 @@ public class Personne {
 
     @Override
     public String toString() {
-        return "Personne{" +
+        String s= "Personne{" +
                 "id=" + id +
                 ", nom='" + nom + '\'' +
                 ", prenom='" + prenom + '\'' +
@@ -38,5 +38,7 @@ public class Personne {
                 ", createdDate=" + createdDate +
                 ", updateDate=" + updateDate +
                 '}';
+        System.out.println(s);
+        return s;
     }
 }

@@ -6,17 +6,17 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        Compte c1=new Compte(1,  20000000,102,  new Date(), new Date());
-        Compte c2=new Compte(2, 90000000,103, new Date(), new Date());
-        Compte c3=new Compte(3, 50000000,103, new Date(), new Date());
-        Compte c4=new Compte(4, 40000000,100, new Date(),new Date());
-        Compte c5=new Compte(5, 600000000, 0,new Date(), new Date());
+        Compte c1=new Compte(1,  20000000,102,  new Date(1993, 4,13), new Date());
+        Compte c2=new Compte(2, 90000000,103, new Date(1995, 7,1), new Date());
+        Compte c3=new Compte(3, 50000000,103, new Date(2000, 23,12), new Date());
+        Compte c4=new Compte(4, 40000000,100, new Date(2023, 4,12),new Date());
+        Compte c5=new Compte(5, 600000000, 0,new Date(2005, 5,3), new Date());
 
-        CompteSimple cs1=new CompteSimple(1,  20000000,2,  new Date(), new Date(),122);
-        CompteSimple cs2=new CompteSimple(2, 90000000,3, new Date(), new Date(),334);
-        CompteSimple cs3=new CompteSimple(3, 50000000,3, new Date(), new Date(),332);
-        CompteSimple cs4=new CompteSimple(4, 40000000,0, new Date(),new Date(),322);
-        CompteSimple cs5=new CompteSimple(5, 600000000, 10,new Date(), new Date(),556);
+        CompteSimple cs1=new CompteSimple(1,  20000000,2,  new Date(1993, 4,13), new Date(),122);
+        CompteSimple cs2=new CompteSimple(2, 90000000,3, new Date(1995, 7,1), new Date(),334);
+        CompteSimple cs3=new CompteSimple(3, 50000000,3, new Date(2005, 5,3), new Date(),332);
+        CompteSimple cs4=new CompteSimple(4, 40000000,0, new Date(2000, 23,12),new Date(),322);
+        CompteSimple cs5=new CompteSimple(5, 600000000, 10,new Date(1995, 7,1), new Date(),556);
 
         Personne p1=new Personne(1,"Konta","Aboubacar Salihou", 20,"aboubacarskonta@gmail.com", 70668309, new Date());
         Personne p2=new Personne(2,"KALOU","Salihou", 22,"aborskonta@gmail.com", 70622209, new Date());
@@ -48,21 +48,27 @@ public class Main {
      ce3.toString();
      ce4.toString();
      ce5.toString();
-      p1.toString();
-      p2.toString();
-      p3.toString();
-      p4.toString();
-      p5.toString();
-       cs1.toString();
-       cs2.toString();
-       cs3.toString();
-       cs4.toString();
-       cs5.toString();
-       cp1.toString();
-       cp2.toString();
-       cp3.toString();
-       cp4.toString();
-       cp5.toString();
+
+
+     p1.toString();
+     p2.toString();
+     p3.toString();
+     p4.toString();
+     p5.toString();
+
+
+     cs1.toString();
+     cs2.toString();
+     cs3.toString();
+     cs4.toString();
+     cs5.toString();
+
+
+     cp1.toString();
+     cp2.toString();
+     cp3.toString();
+     cp4.toString();
+     cp5.toString();
 
 
 

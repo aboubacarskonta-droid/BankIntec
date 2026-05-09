@@ -24,6 +24,10 @@ public class ComptePayant extends Compte {
     public String toString() {
         String s= "ComptePayant{" +
                 "solde=" + solde +
+                "code=" + code +
+                ", solde=" + solde +
+                ", createdDate=" + createdDate +
+                ", update=" + update +
                 '}';
         System.out.println(s);
         return s;

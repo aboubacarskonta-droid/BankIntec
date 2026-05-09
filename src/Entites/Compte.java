@@ -6,11 +6,11 @@ import java.util.Date;
 
 // Import Date retiré car inutile selon le diagramme
 public class Compte {
-    private int code;
+    public int code;
     protected float solde;
     private static int nbComptes;
-    private Date createdDate;
-    private  Date update;
+    public Date createdDate;
+    public Date update;
     private Object s;
 
     public Compte( int code, float solde,int nbComptes, Date createdDate, Date update ) {
