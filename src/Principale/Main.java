@@ -1,11 +1,16 @@
 package Principale;
 
 import Entites.*;
+import view.PersonneForm;
 
+import javax.swing.*;
 import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            new PersonneForm()A.setVisible(true);
+        });
         Compte c1=new Compte(1,  20000000,102,  new Date(1993, 4,13), new Date());
         Compte c2=new Compte(2, 90000000,103, new Date(1995, 7,1), new Date());
         Compte c3=new Compte(3, 50000000,103, new Date(2000, 23,12), new Date());

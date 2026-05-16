@@ -24,7 +24,13 @@ public class Personne {
         this.dateNaiss = dateNaiss;
         this.createdDate = new Date(); // Initialise la date de création à l'instant T
     }
-
+    // À ajouter dans la classe Personne.java
+    public Personne(String nom, String prenom, int age) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.age = age;
+        // Les autres champs (id, adresse, etc.) resteront à leur valeur par défaut
+    }
     @Override
     public String toString() {
         String s= "Personne{" +

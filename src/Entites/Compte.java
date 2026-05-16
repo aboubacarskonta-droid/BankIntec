@@ -7,7 +7,7 @@ import java.util.Date;
 // Import Date retiré car inutile selon le diagramme
 public class Compte {
     public int code;
-    protected float solde;
+    public float solde;
     private static int nbComptes;
     public Date createdDate;
     public Date update;
