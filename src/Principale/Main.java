@@ -1,7 +1,9 @@
 package Principale;
 
 import Entites.*;
+import view.AgenceForm;
 import view.PersonneForm;
+import view.compteForm;
 
 import javax.swing.*;
 import java.util.Date;
@@ -9,7 +11,21 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new PersonneForm()A.setVisible(true);
+            new PersonneForm().setVisible(true);
+            SwingUtilities.invokeLater(() -> {
+                JFrame frame = new JFrame("Configuration Agence");
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+                // Ajout du panneau AgenceForm
+                frame.add(new AgenceForm());
+
+                frame.pack(); // S'adapte proprement à la taille des composants
+                frame.setLocationRelativeTo(null);
+                frame.setVisible(true);
+                SwingUtilities.invokeLater(() -> {
+                    new compteForm().setVisible(true);
+                });
+            });
         });
         Compte c1=new Compte(1,  20000000,102,  new Date(1993, 4,13), new Date());
         Compte c2=new Compte(2, 90000000,103, new Date(1995, 7,1), new Date());

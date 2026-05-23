@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4ee9e4-d8eb-4a50-a832-dd15fc99c7c9" name="Changes" comment="Resolution du probleme d'affihage de la classe CompteEpargne et CompteSimple">
-      <change afterPath="$PROJECT_DIR$/src/view/PersonneForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/compteForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AgenceForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entites/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entites/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entites/Personne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principale/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principale/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/compteForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/compteForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AgenceForm (1).executor": "Run",
+    "Application.AgenceForm.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.compteForm.executor": "Run",
     "Application.personneForm.executor": "Run",
@@ -50,6 +50,32 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="AgenceForm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.AgenceForm" />
+      <module name="BankIntec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgenceForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.AgenceForm" />
+      <module name="BankIntec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principale.Main" />
       <module name="BankIntec" />
@@ -92,8 +118,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.personneForm" />
+        <item itemvalue="Application.AgenceForm" />
+        <item itemvalue="Application.AgenceForm (1)" />
         <item itemvalue="Application.compteForm" />
+        <item itemvalue="Application.personneForm" />
       </list>
     </recent_temporary>
   </component>

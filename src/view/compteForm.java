@@ -129,9 +129,5 @@ public class compteForm extends JFrame {
     }
 
     // ===== POINT D'ENTRÉE DU PROGRAMME =====
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            new compteForm().setVisible(true);
-        });
-    }
+
 }
